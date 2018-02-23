@@ -88,3 +88,24 @@ Pros:
 
 Cons:
 * No sorting, grouping, filtering out of the box
+
+---
+
+### Native Canvas
+
+Pros:
+* No limitations
+* This is what Google Sheets uses
+
+Cons:
+* Incredibly expensive to develop
+* Every single thing will need to be built _completely_ from scratch.
+* Large amount of "reinventing the wheel"
+
+---
+
+### Recommendation
+
+*react-virtualized*
+
+blah blah reasons
