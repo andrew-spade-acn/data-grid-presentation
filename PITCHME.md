@@ -40,28 +40,28 @@
 
 ---
 
-### react-virtualized
+### [react-virtualized](https://bvaughn.github.io/react-virtualized/#/components/List)
 
 Pros: 
-* Best performance without going with the canvas approach. 
+* Best performance short of the canvas approach. 
 * Most flexible solution. 
 * Usable with other tools.
 
 Cons: 
-* Every feature needs to be built from scratch or integrated with another library.
+* Everything built from scratch or integrated with another library.
 * Some learning curve.
 
 +++
 
 In an internal call with another ACN FED, he _strongly_ recommended react-virtualized. 
 
-On his previous project, he ran into substantial issues after starting with 'simpler' solutions and then later uncovering new, unsupported requirements. The end result was maintaining 4 different grid solutions, each with their own feature sets and their own dependencies. 
+He ran into substantial issues after starting with 'simpler' solutions and later uncovering new unsupported requirements. The end result was maintaining 4 different grid solutions, each with their own feature sets and their own dependencies. 
 
 If they had started with react-virtualized, the total effort required would be much lower.
 
 --- 
 
-### ag-grid 
+### [ag-grid](https://www.ag-grid.com/)
 
 Pros:
 * Has a huge list of supported features, including nearly every feature we need
@@ -76,3 +76,15 @@ Cons:
 * Might have some limitations with 'tweaking' it.
 * Locks us in to a very specific tool
 * Licensing limited to the agreed upon use case. Potential legal issues.
+
+---
+
+### [react-datasheet](https://nadbm.github.io/react-datasheet/)
+
+Pros:
+* Selecting included
+* Excel like keyboard shortcuts included
+* "easy" to get started 
+
+Cons:
+* No sorting, grouping, filtering out of the box
