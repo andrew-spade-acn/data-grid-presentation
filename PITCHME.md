@@ -31,12 +31,12 @@
 
 ### Comparison 
 
-| Library           | Time | Customize | Risk   | Perf    | Cost-to-use |
-| ----------------- | ---- | --------- | ------ | ------- | ----------- |
-| react-virtualized |  8 |  8   | 3 |  8 | Free        |
-| ag-grid           |  5 |  4   | 9 |  4 | $$$$ |
-| react-datasheet   |  6 |  7   | 5 |  6 | Free        |
-| native canvas     | 10 | 10   | ? | 10 | Free        |
+| Library           | Time | Customize | Risk   | Perf    | Cost  |
+| ----------------- | ---- | --------- | ------ | ------- | ----- |
+| react-virtualized |  8   |  8        | 3      |  8      | Free  |
+| ag-grid           |  5   |  4        | 9      |  4      | $$$$  |
+| react-datasheet   |  6   |  7        | 5      |  6      | Free  |
+| native canvas     | 10   | 10        | ?      | 10      | Free  |
 
 ---
 
