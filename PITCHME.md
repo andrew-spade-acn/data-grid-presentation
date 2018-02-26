@@ -48,6 +48,10 @@ Pros:
 * Most flexible solution. 
 * Usable with other tools.
 
++++
+
+### [react-virtualized](https://bvaughn.github.io/react-virtualized/#/components/List)
+
 Cons: 
 * Everything built from scratch or integrated with another library.
 * Some learning curve.
@@ -62,6 +66,8 @@ Pros:
 * Enterprise version is open source (for reference)
 
 +++
+
+### [ag-grid](https://www.ag-grid.com/)
 
 Cons:
 
@@ -80,6 +86,10 @@ Pros:
 * Excel like keyboard shortcuts included
 * Easier to get started 
 
++++
+
+### [react-datasheet](https://nadbm.github.io/react-datasheet/)
+
 Cons:
 * No sorting, grouping, filtering out of the box
 * Outdated version of React, which means major performance limitations
@@ -92,6 +102,10 @@ Pros:
 * Sorting, grouping, and filtering included
 * Freezing included
 * Virtualized
+
++++
+
+### [react-data-grid](http://adazzle.github.io/react-data-grid/)
 
 Cons:
 * Monolithic codebase
