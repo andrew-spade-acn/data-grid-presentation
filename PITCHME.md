@@ -50,7 +50,24 @@ Cons:
 * Everything built from scratch or integrated with another library.
 * Some learning curve.
 
---- 
+---
+
+### [react-datasheet](https://nadbm.github.io/react-datasheet/)
+
+Pros:
+* Selecting included
+* Excel like keyboard shortcuts included
+* Easier to get started 
+
++++
+
+### [react-datasheet](https://nadbm.github.io/react-datasheet/)
+
+Cons:
+* No sorting, grouping, filtering out of the box
+* Outdated version of React, which means major performance limitations
+
+---
 
 ### [ag-grid](https://www.ag-grid.com/)
 
@@ -70,23 +87,6 @@ Cons:
 * Vendor lock-in
 * Licensing limited to agreed upon use case. Potential legal issues.
 * Questionable React support
-
----
-
-### [react-datasheet](https://nadbm.github.io/react-datasheet/)
-
-Pros:
-* Selecting included
-* Excel like keyboard shortcuts included
-* Easier to get started 
-
-+++
-
-### [react-datasheet](https://nadbm.github.io/react-datasheet/)
-
-Cons:
-* No sorting, grouping, filtering out of the box
-* Outdated version of React, which means major performance limitations
 
 ---
 
