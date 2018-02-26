@@ -91,6 +91,20 @@ Cons:
 
 ---
 
+---
+
+### [react-data-grid](http://adazzle.github.io/react-data-grid/)
+
+Pros:
+* Sorting, grouping, and filtering included
+* Freezing included
+* Virtualized
+
+Cons:
+* Monolith
+
+---
+
 ### Native Canvas
 
 Pros:
