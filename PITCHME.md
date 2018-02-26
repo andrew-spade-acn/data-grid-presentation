@@ -91,8 +91,6 @@ Cons:
 
 ---
 
----
-
 ### [react-data-grid](http://adazzle.github.io/react-data-grid/)
 
 Pros:
@@ -102,6 +100,7 @@ Pros:
 
 Cons:
 * Monolith
+* Older version of React
 
 ---
 
