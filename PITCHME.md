@@ -52,14 +52,6 @@ Cons:
 * Everything built from scratch or integrated with another library.
 * Some learning curve.
 
-+++
-
-In an internal call with another ACN FED, he _strongly_ recommended react-virtualized. 
-
-He ran into substantial issues after starting with 'simpler' solutions and later uncovering new unsupported requirements. The end result was maintaining 4 different grid solutions, each with their own feature sets and their own dependencies. 
-
-If they had started with react-virtualized, the total effort required would be much lower.
-
 --- 
 
 ### [ag-grid](https://www.ag-grid.com/)
@@ -67,16 +59,17 @@ If they had started with react-virtualized, the total effort required would be m
 Pros:
 * Has a huge list of supported features, including nearly every feature we need
 * Has a two month [free trial](https://www.ag-grid.com/start-trial.php)
-* Enterprise version is still open source (only for reference)
+* Enterprise version is open source (for reference)
 
 +++
 
 Cons:
 
 * Probably very expensive if we need an [OEM license](https://www.ag-grid.com/license-pricing)
-* Might have some limitations with 'tweaking' it.
-* Locks us in to a very specific tool
-* Licensing limited to the agreed upon use case. Potential legal issues.
+* Limitations with 'tweaking' it.
+* Vendor lock-in
+* Licensing limited to agreed upon use case. Potential legal issues.
+* Questionable React support
 
 ---
 
@@ -85,10 +78,11 @@ Cons:
 Pros:
 * Selecting included
 * Excel like keyboard shortcuts included
-* "easy" to get started 
+* Easier to get started 
 
 Cons:
 * No sorting, grouping, filtering out of the box
+* Outdated version of React, which means major performance limitations
 
 ---
 
@@ -100,8 +94,9 @@ Pros:
 * Virtualized
 
 Cons:
-* Monolith
-* Older version of React
+* Monolithic codebase
+* Larger number of dependencies
+* Outdated version of React, which means major performance limitations
 
 ---
 
@@ -121,5 +116,3 @@ Cons:
 ### Recommendation
 
 *react-virtualized*
-
-blah blah reasons
